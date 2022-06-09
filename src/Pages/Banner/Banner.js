@@ -2,6 +2,7 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import rox from '../../assets/images/roxy.jpg';
 
 
 // const navigation = [
@@ -76,11 +77,7 @@ export default function Example() {
                                 <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                                     <div className="px-5 pt-4 flex items-center justify-between">
                                         <div>
-                                            <img
-                                                className="h-8 w-auto"
-                                                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                                                alt=""
-                                            />
+                                            <img src={rox} alt="" />
                                         </div>
                                         <div className="-mr-2">
                                             <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -114,12 +111,16 @@ export default function Example() {
                     <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                         <div className="sm:text-center lg:text-left">
                             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                                <span className="block xl:inline">Data to enrich your</span>{' '}
-                                <span className="block text-indigo-600 xl:inline">online business</span>
+                                <span className="block xl:inline">Md Majadul Islam</span>{' '}
+                                <span className="block text-indigo-600 xl:inline">Roxy Bhuiyan</span>
                             </h1>
                             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                                fugiat veniam occaecat fugiat aliqua.
+                                Hi, I'm Majadul. I have been programming for more than a year. I'm a Junior
+                                Web Developer, with expertise in both Front End & Back End. I am capable of
+                                making innovative, user-friendly, and intuitive user interfaces with a great
+                                user experience. I've done many projects, faced many problems but the good
+                                part is I never felt like giving up solving problems. I understand the process to
+                                make an application User Friendly.
                             </p>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md shadow">
@@ -127,7 +128,7 @@ export default function Example() {
                                         href="#"
                                         className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                                     >
-                                        Get started
+                                        hire me
                                     </a>
                                 </div>
                                 <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -135,7 +136,7 @@ export default function Example() {
                                         href="#"
                                         className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                                     >
-                                        Live demo
+                                        Contact
                                     </a>
                                 </div>
                             </div>
