@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Banner3 = () => {
+const About = () => {
     return (
-        <div class="hero min-h-screen bg-">
+        <div class="hero min-h-screen bg-base-200">
             <div class="hero-content flex-col lg:flex-row">
                 <img src="https://api.lorem.space/image/movie?w=260&h=400" class="max-w-sm rounded-lg shadow-2xl" />
                 <div>
@@ -15,4 +15,4 @@ const Banner3 = () => {
     );
 };
 
-export default Banner3;
+export default About;
